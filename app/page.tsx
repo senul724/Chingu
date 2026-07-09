@@ -6,7 +6,6 @@ import {
 	Gift,
 	Heart,
 	MapPin,
-	Sparkle,
 	Sparkles,
 	Star,
 } from "lucide-react";
@@ -221,19 +220,12 @@ export default function Home() {
 		{ label: "About", href: "#about" },
 	];
 
+	if (!window) {
+		return;
+	}
+
 	return (
 		<main className="bg-background text-foreground">
-			{/**
-      <Hero />
-      <Marquee />
-      <Menu />
-      <AppSection />
-      <Rewards />
-      <Franchise />
-      <Locations />
-      <About />
-      <Footer />
-      */}
 			{/** nav bar */}
 			<header className="fixed top-3 md:top-5 left-1/2 -translate-x-1/2 z-50 px-3 w-full max-w-[96vw] flex justify-center pointer-events-none">
 				<div
