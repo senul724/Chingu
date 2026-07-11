@@ -311,10 +311,6 @@ export default function Home() {
 						<div className="relative z-10 grid lg:grid-cols-[1.05fr_1fr] items-center gap-6 lg:gap-4 px-6 py-6 md:px-14 md:py-8 lg:px-20 flex-1">
 							{/* LEFT — copy */}
 							<div className="max-w-2xl flex flex-col justify-center">
-								<div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-milk/10 border border-milk/20 text-xs font-bold uppercase tracking-widest text-milk/95 shadow-md backdrop-blur-sm animate-rise mb-4 w-fit">
-									<span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-									🇰 Korean-Inspired Smart Boba
-								</div>
 								<h1
 									className="mt-1 font-display font-black leading-[0.85] tracking-tighter text-[clamp(3rem,7.5vw,7rem)] animate-rise drop-shadow-[0_4px_12px_rgba(0,0,0,0.15)]"
 									style={{ animationDelay: "0.1s" }}
@@ -531,7 +527,7 @@ export default function Home() {
 					<div className="relative w-80 md:w-[460px] lg:w-[580px] aspect-square transition-transform duration-500 ease-[cubic-bezier(0.34,1.56,0.64,1)] group-hover/welcome:scale-105 group-hover/welcome:-rotate-3 cursor-pointer">
 						<img
 							style={{ scale: Math.max(0.7, 1 - window.scrollY / 1000) }}
-							src="/mascot-welcome.png"
+							src="/wc.gif"
 							alt="Welcome Mascot"
 							className="w-full h-full object-contain drop-shadow-[0_25px_60px_rgba(17,17,17,0.45)] animate-float-slow"
 						/>
