@@ -626,7 +626,7 @@ export default function Home() {
 								className="absolute left-2 bottom-0 w-28 drop-shadow-xl animate-float -rotate-6"
 							/>
 							<img
-								src="/mascot-welcome.png"
+								src="/wc.gif"
 								alt="Chingu mascot"
 								width={1024}
 								height={1024}
