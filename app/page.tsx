@@ -9,6 +9,7 @@ import {
 	Sparkles,
 	Star,
 } from "lucide-react";
+import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
 const items = [
@@ -525,7 +526,9 @@ export default function Home() {
 					style={p(35)}
 				>
 					<div className="relative w-80 md:w-[460px] lg:w-[580px] aspect-square transition-transform duration-500 ease-[cubic-bezier(0.34,1.56,0.64,1)] group-hover/welcome:scale-105 group-hover/welcome:-rotate-3 cursor-pointer">
-						<img
+						<Image
+							width={500}
+							height={500}
 							style={{ scale: Math.max(0.7, 1 - window.scrollY / 1000) }}
 							src="/wc.gif"
 							alt="Welcome Mascot"
